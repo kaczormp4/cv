@@ -68,8 +68,12 @@
     font-size: 10vw;
   }
   .fifthBoxSkillsBoxSquares {
+    margin: auto;
     font-size: 6vw;
-    width: 45vw;
-    height: 45vw;
+    width: 50vw;
+    height: 55vw;
+  }
+  .fifthBoxAnimation {
+    display: none;
   }
 }
