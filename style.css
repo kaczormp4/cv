@@ -113,7 +113,8 @@ ul {
   font-size: 2vw;
   font-variant: small-caps;
   width: 80%;
-  border: 4px dotted rgb(238, 238, 238);
+  border: 4px solid rgb(207, 207, 207);
+  background-color: rgba(207, 207, 207, 0.05);
   margin: auto;
   margin-top: 5vh;
   text-align: center;

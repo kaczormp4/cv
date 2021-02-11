@@ -58,70 +58,75 @@ function GihubLinkAnimation(){
 }
 
 function SkillAnimation(){
-    var skill1 = document.getElementById("fifthBoxSkillsBoxSquares1");
-    var skill2 = document.getElementById("fifthBoxSkillsBoxSquares2");
-    var skill3 = document.getElementById("fifthBoxSkillsBoxSquares3");
-    var skill4 = document.getElementById("fifthBoxSkillsBoxSquares4");
-    
-    console.log(skill4.style.width)
-    var fifthBoxAnimationDiv = document.getElementById("fifthBoxAnimationDiv");
-
-    skill1.addEventListener("mousemove",e => {
-        fifthBoxAnimationDiv.style.left = `${e.layerX}px`;
-        skill1.style.boxShadow ="0 0 10px lightblue";
-        skill1.style.transform ="scale(1.4)";
-        skill1.style.zIndex = "10";
+    var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+    console.log(width)
+    if(width > 800){   
         
-
-    })
-    skill1.addEventListener("mouseout",e => {
-        fifthBoxAnimationDiv.style.left = `${e.layerX}px`;
-        skill1.style.boxShadow ="";
-        skill1.style.transform ="scale(1)";
-        skill1.style.zIndex = "1";
+        var skill1 = document.getElementById("fifthBoxSkillsBoxSquares1");
+        var skill2 = document.getElementById("fifthBoxSkillsBoxSquares2");
+        var skill3 = document.getElementById("fifthBoxSkillsBoxSquares3");
+        var skill4 = document.getElementById("fifthBoxSkillsBoxSquares4");
         
-    })
+        console.log(skill4.style.width)
+        var fifthBoxAnimationDiv = document.getElementById("fifthBoxAnimationDiv");
+
+        skill1.addEventListener("mousemove",e => {
+            fifthBoxAnimationDiv.style.left = `${e.layerX}px`;
+            skill1.style.boxShadow ="0 0 10px lightblue";
+            skill1.style.transform ="scale(1.4)";
+            skill1.style.zIndex = "10";
+            
+
+        })
+        skill1.addEventListener("mouseout",e => {
+            fifthBoxAnimationDiv.style.left = `${e.layerX}px`;
+            skill1.style.boxShadow ="";
+            skill1.style.transform ="scale(1)";
+            skill1.style.zIndex = "1";
+            
+        })
 
 
-    skill2.addEventListener("mousemove",e => {
-        fifthBoxAnimationDiv.style.left = `${e.clientX - 420}px`;
-        skill2.style.boxShadow ="0 0 10px gold";
-        skill2.style.transform ="scale(1.4)";
-        skill2.style.zIndex = "10";
-    })
-    skill2.addEventListener("mouseout",e => {
-        fifthBoxAnimationDiv.style.left = `${e.clientX - 420}px`;
-        skill2.style.boxShadow ="";
-        skill2.style.transform ="scale(1)";
-        skill2.style.zIndex = "1";
-    })
+        skill2.addEventListener("mousemove",e => {
+            fifthBoxAnimationDiv.style.left = `${e.clientX - 420}px`;
+            skill2.style.boxShadow ="0 0 10px gold";
+            skill2.style.transform ="scale(1.4)";
+            skill2.style.zIndex = "10";
+        })
+        skill2.addEventListener("mouseout",e => {
+            fifthBoxAnimationDiv.style.left = `${e.clientX - 420}px`;
+            skill2.style.boxShadow ="";
+            skill2.style.transform ="scale(1)";
+            skill2.style.zIndex = "1";
+        })
 
-    skill3.addEventListener("mousemove",e => {
-        fifthBoxAnimationDiv.style.left = `${e.clientX - 420}px`;
-        skill3.style.boxShadow ="0 0 10px blue";
-        skill3.style.transform ="scale(1.4)";
-        skill3.style.zIndex = "10";
-    })
-    skill3.addEventListener("mouseout",e => {
-        fifthBoxAnimationDiv.style.left = `${e.clientX - 420}px`;
-        skill3.style.boxShadow ="";
-        skill3.style.transform ="scale(1)";
-        skill3.style.zIndex = "1";
-    })
+        skill3.addEventListener("mousemove",e => {
+            fifthBoxAnimationDiv.style.left = `${e.clientX - 420}px`;
+            skill3.style.boxShadow ="0 0 10px blue";
+            skill3.style.transform ="scale(1.4)";
+            skill3.style.zIndex = "10";
+        })
+        skill3.addEventListener("mouseout",e => {
+            fifthBoxAnimationDiv.style.left = `${e.clientX - 420}px`;
+            skill3.style.boxShadow ="";
+            skill3.style.transform ="scale(1)";
+            skill3.style.zIndex = "1";
+        })
 
 
-    skill4.addEventListener("mousemove",e => {
-        fifthBoxAnimationDiv.style.left = `${e.clientX - 420}px`;
-        skill4.style.boxShadow ="0 0 10px orange";
-        skill4.style.transform ="scale(1.4)";
-        skill4.style.zIndex = "10";
-    })
-    skill4.addEventListener("mouseout",e => {
-        fifthBoxAnimationDiv.style.left = `${e.clientX - 420}px`;
-        skill4.style.boxShadow ="";
-        skill4.style.transform ="scale(1)";
-        skill4.style.zIndex = "1";
-    })
+        skill4.addEventListener("mousemove",e => {
+            fifthBoxAnimationDiv.style.left = `${e.clientX - 420}px`;
+            skill4.style.boxShadow ="0 0 10px orange";
+            skill4.style.transform ="scale(1.4)";
+            skill4.style.zIndex = "10";
+        })
+        skill4.addEventListener("mouseout",e => {
+            fifthBoxAnimationDiv.style.left = `${e.clientX - 420}px`;
+            skill4.style.boxShadow ="";
+            skill4.style.transform ="scale(1)";
+            skill4.style.zIndex = "1";
+        })
+    }
 }
 function AvatarAnimation(){
     var old = document.getElementById("firstBoxPhotoImg");
@@ -144,6 +149,7 @@ function AvatarAnimation(){
 }
 
 function StarsAnime(){
+
     var fifthBoxSkillsBoxSquares1 = document.getElementById("fifthBoxSkillsBoxSquares1");
     var fifthBoxSkillsBoxSquares2 = document.getElementById("fifthBoxSkillsBoxSquares2");
     var fifthBoxSkillsBoxSquares3 = document.getElementById("fifthBoxSkillsBoxSquares3");
@@ -159,7 +165,6 @@ function StarsAnime(){
 
     fifthBoxSkillsBoxSquares1.addEventListener("mouseover", e=>{
         fifthBoxSkillsBoxSquaresStars1.style.display = "block"
-        console.log(fifthBoxSkillsBoxSquaresStars1.offsetHeight)
         setTimeout(() => {
             fifthBoxSkillsBoxSquaresStars1.style.transitionDuration ="1s"          
             fifthBoxSkillsBoxSquaresStars1.style.transform="scale(1.5)"
@@ -172,7 +177,6 @@ function StarsAnime(){
     ///////////////////2
     fifthBoxSkillsBoxSquares2.addEventListener("mouseover", e=>{
         fifthBoxSkillsBoxSquaresStars2.style.display = "block"
-        console.log(fifthBoxSkillsBoxSquaresStars2.offsetHeight)
         setTimeout(() => {
             fifthBoxSkillsBoxSquaresStars2.style.transitionDuration ="1s"          
             fifthBoxSkillsBoxSquaresStars2.style.transform="scale(1.5)"
@@ -185,7 +189,6 @@ function StarsAnime(){
     ///////////////////3
     fifthBoxSkillsBoxSquares3.addEventListener("mouseover", e=>{
         fifthBoxSkillsBoxSquaresStars3.style.display = "block"
-        console.log(fifthBoxSkillsBoxSquaresStars3.offsetHeight)
         setTimeout(() => {
             fifthBoxSkillsBoxSquaresStars3.style.transitionDuration ="1s"          
             fifthBoxSkillsBoxSquaresStars3.style.transform="scale(1.5)"
@@ -198,7 +201,6 @@ function StarsAnime(){
     ///////////////////4
     fifthBoxSkillsBoxSquares4.addEventListener("mouseover", e=>{
         fifthBoxSkillsBoxSquaresStars4.style.display = "block"
-        console.log(fifthBoxSkillsBoxSquaresStars4.offsetHeight)
         setTimeout(() => {
             fifthBoxSkillsBoxSquaresStars4.style.transitionDuration ="1s"          
             fifthBoxSkillsBoxSquaresStars4.style.transform="scale(1.5)"
