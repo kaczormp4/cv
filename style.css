@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  --background-color: #ffffff;
+  --color: rgb(19, 19, 19);
+  --border-color: rgb(0, 131, 131);
+  font-family: "Pangolin", cursive;
+  box-sizing: border-box;
+  cursor: crosshair;
+}
+body {
+  background-color: #f6f6f6;
+  --background-image: url(/img/bckg.jpg);
+  --background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+h1 {
+  font-size: 2.5vw;
+}
+h2 {
+  font-size: 2vw;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+ul {
+  text-align: left;
+}
+.container {
+  width: 70vw;
+  height: auto;
+  --height: auto;
+  --border: 2px rgb(231, 231, 231) solid;
+  margin: auto;
+  background-color: #fffef5;
+}
+.firstBox {
+  width: 80%;
+  --border: 4px dotted rgb(238, 238, 238);
+  margin: auto;
+  margin-top: 5vh;
+  display: flex;
+}
+.firstBoxPhoto {
+  --border: 1px solid green;
+  width: 20vw;
+  height: 17vw;
+  --background-image: url(/img/myphoto.png);
+  --background-size: cover;
+  background-size: 115%;
+  position: relative;
+}
+.firstBoxPhotoImg {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  position: absolute;
+  object-fit: cover;
+  transition-duration: 1.5s;
+}
+.firstBoxPhotoAnimation {
+  border: 3px dashed rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 17vw;
+  position: absolute;
+  transition-duration: 1.5s;
+  opacity: 0;
+  z-index: 20;
+}
+.firstBoxPhotoAnimation:hover {
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  transition-duration: 1.5s;
+  transform: rotate(20deg);
+  opacity: 1;
+}
+.firstBoxMainInfo {
+  --border: 1px solid green;
+  width: 100%;
+  height: auto;
+}
+.firstBoxMainTitle {
+  margin: auto;
+  --border: 2px solid green;
+  width: 70%;
+  height: auto;
+  text-align: center;
+  margin-top: 1.5vh;
+}
+.secondBox {
+  font-size: 4vw;
+  width: 80%;
+  border: 4px dotted rgb(238, 238, 238);
+  margin: auto;
+  margin-top: 5vh;
+  text-align: center;
+}
+.aboutMeBox {
+  font-size: 2vw;
+  font-variant: small-caps;
+  width: 80%;
+  border: 4px dotted rgb(238, 238, 238);
+  margin: auto;
+  margin-top: 5vh;
+  text-align: center;
+  cursor: pointer;
+}
+.aboutMeText {
+  font-size: 2vw;
+  text-transform: capitalize;
+  width: 80%;
+  --border: 4px dotted rgb(238, 238, 238);
+  margin: auto;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  text-align: center;
+  display: none;
+}
+.thirdBox {
+  font-size: 2vw;
+  width: 80%;
+  --border: 4px dotted rgb(238, 238, 238);
+  margin: auto;
+  margin-top: 5vh;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.thirdBoxName {
+  width: 100%;
+}
+.thirdBoxProjects {
+  width: 17vw;
+  height: 17vw;
+  border: 4px dotted rgb(238, 238, 238);
+  background-color: lightskyblue;
+  transition-duration: 1.2s;
+}
+.thirdBoxProjects:hover {
+  transform: skew(-5deg);
+}
+.fourthBox {
+  font-size: 2vw;
+  width: 80%;
+  --border: 4px dotted rgb(238, 238, 238);
+  margin: auto;
+  margin-top: 5vh;
+  text-align: center;
+  display: flex;
+}
+.fourthBoxLeft {
+  width: 30%;
+  --border: 4px dotted rgb(238, 238, 238);
+  display: flex;
+  transition-duration: 0.7s;
+  transition-delay: 0.7s;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  flex-wrap: wrap;
+}
+.fourthBoxLeftText {
+  width: 100%;
+  --border: 4px dotted rgb(238, 238, 238);
+}
+.fourthBoxRight {
+  width: 70%;
+  --border: 4px dotted rgb(238, 238, 238);
+}
+.fourthBoxRightText {
+  width: 100%;
+  --border: 4px dotted rgb(238, 238, 238);
+  word-wrap: break-word;
+}
+.fifthBox {
+  font-size: 2vw;
+  width: 80%;
+  --border: 4px dotted rgb(238, 238, 238);
+  margin: auto;
+  margin-top: 5vh;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.fifthBoxTitle {
+  font-size: 2vw;
+  width: 100%;
+  --border: 4px dotted rgb(238, 238, 238);
+  margin: auto;
+  text-align: center;
+  display: flex;
+}
+.fifthBoxTitleBox {
+  font-size: 2vw;
+  width: 10%;
+  --border: 4px dotted rgb(238, 238, 238);
+}
+.fifthBoxSkillsBox {
+  font-size: 2vw;
+  width: 100%;
+  --border: 4px dotted rgb(77, 1, 1);
+  display: flex;
+  flex-wrap: wrap;
+}
+.fifthBoxSkillsBoxSquares {
+  font-size: 2vw;
+  width: 25%;
+  height: 16vw;
+  --border: 4px solid rgba(168, 143, 143, 0.465);
+  position: relative;
+  background-color: #ffffff;
+}
+.fifthBoxSkillsBoxSquaresImg {
+  width: 100%;
+  height: auto;
+}
+.fifthBoxSkillsBoxSquaresStars {
+  position: absolute;
+  width: 100%;
+  display: none;
+  --margin-bottom: 10px;
+}
+.fifthBoxAnimation {
+  font-size: 2vw;
+  width: 100%;
+  --border: 4px dotted rgb(238, 238, 238);
+  margin: auto;
+  text-align: center;
+  display: flex;
+  position: relative;
+  margin-top: 7vh;
+}
+.fifthBoxAnimationDiv {
+  position: absolute;
+  z-index: 999;
+  left: 0px;
+}
