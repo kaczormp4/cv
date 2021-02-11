@@ -1,0 +1,75 @@
+@media only screen and (max-width: 799px) {
+  h1 {
+    font-size: 8.5vw;
+  }
+  h2 {
+    font-size: 7vw;
+  }
+  .container {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    width: 100vw;
+    background-color: #fffef5;
+  }
+  .firstBox {
+    flex-wrap: wrap-reverse;
+  }
+  .firstBoxPhoto {
+    width: 30vw;
+    order: 5;
+    display: none;
+  }
+  .firstBoxPhotoImg {
+  }
+  .firstBoxPhotoAnimation {
+    width: 30vw;
+  }
+  .firstBoxMainInfo {
+    width: 100vw;
+  }
+  .firstBoxMainTitle {
+    width: 100%;
+  }
+  .secondBox {
+    font-size: 8vw;
+    width: 100%;
+  }
+  .aboutMeBox {
+    font-size: 8vw;
+    width: 100%;
+  }
+  .aboutMeText {
+    font-size: 6vw;
+    width: 90%;
+  }
+  .thirdBox {
+    font-size: 8vw;
+    width: 90%;
+  }
+  .thirdBoxProjects {
+    width: 27vw;
+    height: 27vw;
+  }
+  .fourthBox {
+    font-size: 4vw;
+    width: 95%;
+  }
+  .fourthBoxLeft {
+    width: 25%;
+  }
+  .fourthBoxRight {
+    width: 75%;
+  }
+  .fifthBox {
+    width: 90%;
+  }
+  .fifthBoxTitleBox {
+    font-size: 10vw;
+  }
+  .fifthBoxSkillsBoxSquares {
+    font-size: 6vw;
+    width: 45vw;
+    height: 45vw;
+  }
+}

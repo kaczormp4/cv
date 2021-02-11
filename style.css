@@ -60,7 +60,7 @@ ul {
   height: 17vw;
   --background-image: url(/img/myphoto.png);
   --background-size: cover;
-  background-size: 115%;
+  --background-size: 115%;
   position: relative;
 }
 .firstBoxPhotoImg {
