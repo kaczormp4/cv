@@ -5,12 +5,14 @@
   h2 {
     font-size: 7vw;
   }
+  .sidePanel {
+    display: none;
+  }
   .container {
     margin: 0;
     padding: 0;
     max-width: 100vw;
     width: 100vw;
-    background-color: #fffef5;
     block-size: auto;
     writing-mode: horizontal-tb;
   }
@@ -40,6 +42,11 @@
   .aboutMeBox {
     font-size: 8vw;
     width: 100%;
+  }
+  .ambTitle {
+    font-size: 6.4vw;
+    width: 100%;
+    border-radius: 0;
   }
   .aboutMeText {
     font-size: 6vw;

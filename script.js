@@ -215,7 +215,7 @@ function AboutMeTextAnimaion(){
     var amb = document.getElementById("aboutMeBox");
     var amt = document.getElementById("aboutMeText");
     var ambTitle = document.getElementById("ambTitle");
-    amb.addEventListener("click", e =>{
+    ambTitle.addEventListener("click", e =>{
         
         if(amt.style.display==="block"){
             ambTitle.innerText="click here to read more about me again"
