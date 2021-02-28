@@ -33,8 +33,8 @@ function GihubLinkAnimation(){
     var zero = 0;
     setInterval(() => {
         var redColor = Math.floor(Math.random()*254);
-        var greenColor = Math.floor(Math.random()*254);
-        var blueColor = Math.floor(Math.random()*254);
+        var greenColor = Math.floor(Math.random()*100);
+        var blueColor = Math.floor(Math.random()*100);
         tab[zero] = tab[zero].toUpperCase();
         tab[zero] = `<span style="color:rgb(${redColor},${greenColor},${blueColor})">${tab[zero]}</span>`
 
