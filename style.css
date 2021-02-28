@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  --background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   cursor: crosshair;
@@ -87,11 +86,9 @@ ul {
 .container {
   width: 70vw;
   height: auto;
-  --height: auto;
-  --border: 2px rgb(231, 231, 231) solid;
   margin: auto;
   background-color: #ffffff;
-  box-shadow: 0 0 1px 0px rgb(167, 167, 167);
+  --box-shadow: 0 0 1px 0px rgb(167, 167, 167);
 }
 .firstBox {
   width: 80%;
@@ -100,10 +97,8 @@ ul {
   display: flex;
 }
 .firstBoxPhoto {
-  width: 400px;
+  width: 300px;
   height: 300px;
-  margin: 0;
-  padding: 0;
   position: relative;
   border-radius: 200px;
   box-shadow: 0 0 10px 1px rgb(167, 167, 167);
@@ -130,19 +125,20 @@ ul {
   width: 100%;
   height: 100%;
   position: absolute;
-  transition-duration: 1.5s;
-  opacity: 1;
+  transition-duration: 0.5s;
   border-radius: 200px;
   z-index: 20;
 }
 .firstBoxPhotoAnimation:hover {
   transform: rotate(20deg);
-  border: 7px dotted rgba(255, 255, 255, 0.411);
-  opacity: 1;
+  border: 15px solid rgba(255, 255, 255, 0.111);
+}
+.firstBoxPhotoAnimation:active {
+  transform: rotate(20deg);
+  border: 13px dashed rgba(255, 255, 255, 0.411);
 }
 .firstBoxMainInfo {
-  --border: 1px solid green;
-  width: 100%;
+  width: calc(100% - 300px);
   height: auto;
 }
 .firstBoxMainTitle {
@@ -213,7 +209,6 @@ ul {
 .thirdBox {
   font-size: 2vw;
   width: 80%;
-  --border: 4px dotted rgb(238, 238, 238);
   margin: auto;
   margin-top: 5vh;
   text-align: center;
@@ -223,17 +218,23 @@ ul {
 }
 .thirdBoxName {
   width: 100%;
+  color: #0096d1;
 }
 .thirdBoxProjects {
-  width: 17vw;
+  width: 48%;
   height: 17vw;
-  border: 4px dotted rgb(238, 238, 238);
-  background-color: lightskyblue;
-  transition-duration: 1.2s;
+  --background-color: #0096d1;
+  transition-duration: 0.5s;
   cursor: pointer;
+  --background-image: url("/img/first-web.PNG");
+  background-size: cover;
+  box-shadow: 0 0 10px #0096d1;
 }
 .thirdBoxProjects:hover {
-  transform: skew(-5deg);
+  transform: skew(-2deg);
+}
+.thirdBoxProjects > img {
+  max-width: 100%;
 }
 .fourthBox {
   font-size: 2vw;
@@ -255,7 +256,7 @@ ul {
 }
 .fourthBoxLeftText {
   width: 100%;
-  --border: 4px dotted rgb(238, 238, 238);
+  color: #0096d1;
 }
 .fourthBoxRight {
   width: 70%;
@@ -279,15 +280,16 @@ ul {
 .fifthBoxTitle {
   font-size: 2vw;
   width: 100%;
-  --border: 4px dotted rgb(238, 238, 238);
   margin: auto;
   text-align: center;
   display: flex;
 }
 .fifthBoxTitleBox {
+  width: 100%;
+  text-align: center;
   font-size: 2vw;
-  width: 10%;
-  --border: 4px dotted rgb(238, 238, 238);
+  padding-bottom: 3vw;
+  color: #0096d1;
 }
 .fifthBoxSkillsBox {
   font-size: 2vw;
@@ -316,20 +318,15 @@ ul {
   width: 100%;
   display: none;
   --margin-bottom: 10px;
+  background-color: rgba(245, 222, 179, 0);
   color: gold;
 }
 .fifthBoxAnimation {
-  font-size: 2vw;
   width: 100%;
-  --border: 4px dotted rgb(238, 238, 238);
-  margin: auto;
-  text-align: center;
-  display: flex;
-  position: relative;
-  margin-top: 7vh;
-}
-.fifthBoxAnimationDiv {
-  position: absolute;
-  z-index: 999;
-  left: 0px;
+  height: 17vw;
+  margin-top: -15vh;
+  background-image: url("/img/down-bckg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
 }
