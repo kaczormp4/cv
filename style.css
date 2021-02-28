@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0;
   --background-color: #ffffff;
-  --color: rgb(19, 19, 19);
-  --border-color: rgb(0, 131, 131);
-  --font-family: "Pangolin", cursive;
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   cursor: crosshair;
