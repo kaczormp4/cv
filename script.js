@@ -232,6 +232,6 @@ function AboutMeTextAnimaion(){
 EducationAnimation();
 GihubLinkAnimation();
 SkillAnimation();
-AvatarAnimation();
+//AvatarAnimation();
 StarsAnime();
 AboutMeTextAnimaion();
