@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10.941" height="13" viewBox="0 0 10.941 13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a8ead5;
+      }
+    </style>
+  </defs>
+  <g id="_.placeico" data-name=".placeico" transform="translate(-899 -254)">
+    <path id="Path_1" data-name="Path 1" class="cls-1" d="M14.335,4.53A5.47,5.47,0,0,0,6.6,12.265L8.638,14.3a.5.5,0,1,0,.706-.706L7.306,11.559a4.474,4.474,0,1,1,6.324,0l-3.515,3.515a.5.5,0,1,0,.706.706l3.515-3.515a5.469,5.469,0,0,0,0-7.736Z" transform="translate(894.003 251.073)"/>
+    <path id="Path_2" data-name="Path 2" class="cls-1" d="M15.972,11.486a2.486,2.486,0,1,0-2.486,2.486,2.486,2.486,0,0,0,2.486-2.486Zm-3.977,0a1.491,1.491,0,1,1,1.491,1.491,1.491,1.491,0,0,1-1.491-1.491Z" transform="translate(890.984 248.019)"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="866.4" height="105" viewBox="0 0 866.4 105">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0096d1;
+      }
+
+      .cls-2 {
+        filter: url(#_.clickherebutton);
+      }
+    </style>
+    <filter id="_.clickherebutton" x="0" y="0" width="866.4" height="105" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#0096d1" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <rect id="_.clickherebutton-2" data-name=".clickherebutton" class="cls-1" width="806.4" height="45" rx="20" transform="translate(30 10)"/>
+  </g>
+</svg>

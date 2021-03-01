@@ -1,0 +1,26 @@
+<svg id="_.eng" data-name=".eng" xmlns="http://www.w3.org/2000/svg" width="200" height="15" viewBox="0 0 200 15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(168,234,213,0.4);
+      }
+
+      .cls-2 {
+        fill: #a8ead5;
+      }
+
+      .cls-3 {
+        fill: #656770;
+        font-size: 12px;
+        font-family: Montserrat-Medium, Montserrat;
+        font-weight: 500;
+        letter-spacing: 0.05em;
+      }
+    </style>
+  </defs>
+  <g id="_.engline" data-name=".engline" transform="translate(-459 -848)">
+    <rect id="Rectangle_41" data-name="Rectangle 41" class="cls-1" width="200" height="15" transform="translate(459 848)"/>
+    <rect id="Rectangle_27" data-name="Rectangle 27" class="cls-2" width="133" height="15" transform="translate(459 848)"/>
+  </g>
+  <text id="Language_level_B1" data-name="Language level B1" class="cls-3" transform="translate(5 12)"><tspan x="0" y="0">Language level B1</tspan></text>
+</svg>

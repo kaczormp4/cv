@@ -1,0 +1,26 @@
+<svg id="_.germ" data-name=".germ" xmlns="http://www.w3.org/2000/svg" width="200" height="15" viewBox="0 0 200 15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a8ead5;
+      }
+
+      .cls-2 {
+        fill: rgba(168,234,213,0.4);
+      }
+
+      .cls-3 {
+        fill: #656770;
+        font-size: 12px;
+        font-family: Montserrat-Medium, Montserrat;
+        font-weight: 500;
+        letter-spacing: 0.05em;
+      }
+    </style>
+  </defs>
+  <g id="_.gerline" data-name=".gerline" transform="translate(-459 -900)">
+    <rect id="rectang" class="cls-1" width="124" height="15" transform="translate(459 900)"/>
+    <rect id="Rectangle_42" data-name="Rectangle 42" class="cls-2" width="200" height="15" transform="translate(459 900)"/>
+  </g>
+  <text id="Communicative_in_speech" data-name="Communicative in speech" class="cls-3" transform="translate(5 12)"><tspan x="0" y="0">Communicative in speech</tspan></text>
+</svg>

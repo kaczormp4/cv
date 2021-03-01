@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="240" height="67" viewBox="0 0 240 67">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0096d1;
+      }
+
+      .cls-2 {
+        filter: url(#_.menubutton);
+      }
+    </style>
+    <filter id="_.menubutton" x="0" y="0" width="240" height="67" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#0096d1" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <rect id="_.menubutton-2" data-name=".menubutton" class="cls-1" width="210" height="37" rx="18.5" transform="translate(25 5)"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a8ead5;
+      }
+    </style>
+  </defs>
+  <g id="_.mailico" data-name=".mailico" transform="translate(-557 -199)">
+    <path id="Path_3" data-name="Path 3" class="cls-1" d="M15.5,13a.5.5,0,0,0-.5.5v4a.5.5,0,0,1-.5.5H4.5a.5.5,0,0,1-.5-.5v-4a.5.5,0,1,0-1,0v4A1.5,1.5,0,0,0,4.5,19h10A1.5,1.5,0,0,0,16,17.5v-4A.5.5,0,0,0,15.5,13Z" transform="translate(554 189)"/>
+    <path id="Path_4" data-name="Path 4" class="cls-1" d="M9.3,12.9a.5.5,0,0,0,.6,0l5.9-4.43a.5.5,0,0,0,.15-.615,1.53,1.53,0,0,0-.295-.415A1.5,1.5,0,0,0,14.6,7H4.6a1.5,1.5,0,0,0-1.06.44,1.53,1.53,0,0,0-.3.415.5.5,0,0,0,.15.615ZM4.6,8h10a.45.45,0,0,1,.14,0L9.6,11.875,4.456,8A.45.45,0,0,1,4.6,8Z" transform="translate(553.904 192)"/>
+  </g>
+</svg>

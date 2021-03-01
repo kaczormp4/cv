@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
   cursor: crosshair;
   color: rgb(0, 0, 0);
@@ -20,7 +20,7 @@ html {
   width: 12vw;
   font-size: 1.6vw;
   background-color: #0398d0;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 30px 30px 0px;
   outline: 0;
   border: 0;
   padding: 0.4vw;
@@ -52,12 +52,10 @@ html {
 
 body {
   background-color: #ffffff;
-  --background-image: url(/img/bckg.jpg);
-  --background-image: url(https://i.giphy.com/media/l41lXdAOaYzV1CrgQ/giphy.webp);
+  background-image: url("svg/gora.svg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  --background-position: center;
-  --background-image: linear-gradient(to right, black, purple, purple, black);
+  background-position: center top;
+  background-size: 160%;
 }
 h1 {
   font-size: 2.5vw;
@@ -87,18 +85,19 @@ ul {
   width: 70vw;
   height: auto;
   margin: auto;
-  background-color: #ffffff;
   --box-shadow: 0 0 1px 0px rgb(167, 167, 167);
 }
 .firstBox {
   width: 80%;
   margin: auto;
-  margin-top: 5vh;
+  margin-top: 7vh;
+  margin-bottom: 6vh;
   display: flex;
 }
+
 .firstBoxPhoto {
-  width: 300px;
-  height: 300px;
+  width: 280px;
+  height: 280px;
   position: relative;
   border-radius: 200px;
   box-shadow: 0 0 10px 1px rgb(167, 167, 167);
@@ -143,15 +142,22 @@ ul {
 }
 .firstBoxMainTitle {
   margin: auto;
-  --border: 2px solid green;
-  width: 70%;
+  width: 90%;
   height: auto;
   text-align: center;
   margin-top: 1.5vh;
 }
+.firstBoxMainTitle > h1 {
+  text-transform: uppercase;
+  color: white;
+  font-weight: normal;
+  font-size: 2.5vw;
+  text-align: left;
+  letter-spacing: 0.6vw;
+}
 .secondBox {
   color: white;
-  font-size: 2vw;
+  font-size: 1.8vw;
   width: 80%;
   margin: auto;
   margin-top: 5vh;
@@ -161,16 +167,17 @@ ul {
   cursor: pointer;
   padding-top: 0.5vw;
   padding-bottom: 0.5vw;
-  border-radius: 15px;
+  border-radius: 35px;
+  transition-duration: 0.4s;
+}
+.secondBox:hover {
+  box-shadow: 0px 10px 20px#0096d171;
 }
 .aboutMeBox {
-  font-size: 2vw;
-  font-variant: small-caps;
+  font-size: 1.8vw;
   width: 80%;
-  --border: 4px solid rgb(207, 207, 207);
-  background-color: rgba(207, 207, 207, 0.05);
   margin: auto;
-  margin-top: 5vh;
+  margin-top: 8vh;
   text-align: center;
   cursor: pointer;
 }
@@ -180,7 +187,7 @@ ul {
   cursor: pointer;
   outline: none;
   border: none;
-  border-radius: 15px;
+  border-radius: 35px;
   color: white;
   background-color: #0096d1;
   padding-top: 0.5vw;
@@ -195,16 +202,23 @@ ul {
   box-shadow: 0 5px #999;
   transform: translateY(4px);
 }
+.aboutMeBoxFlex {
+}
+.aboutMeLine {
+  width: 10%;
+}
 .aboutMeText {
-  font-size: 2vw;
-  text-transform: capitalize;
-  width: 80%;
-  --border: 4px dotted rgb(238, 238, 238);
+  font-size: 1vw;
+  width: 90%;
   margin: auto;
   margin-top: 2vh;
   margin-bottom: 2vh;
-  text-align: center;
+  text-align: left;
   display: none;
+}
+.aboutMeText > h2,
+.aboutMeText > ul > h2 {
+  text-transform: uppercase;
 }
 .thirdBox {
   font-size: 2vw;
@@ -238,6 +252,7 @@ ul {
 }
 .thirdBoxProjects > img {
   max-width: 100%;
+  cursor: pointer;
 }
 .fourthBox {
   font-size: 2vw;
@@ -260,20 +275,35 @@ ul {
 .fourthBoxLeftText {
   width: 100%;
   color: #0096d1;
+  padding-top: 2vw;
+  padding-bottom: 1vw;
+}
+.fourthBoxLeftText > b {
+  font-size: 1.5vw;
+  width: 100%;
+  color: #0096d1;
 }
 .fourthBoxRight {
   width: 70%;
-  --border: 4px dotted rgb(238, 238, 238);
 }
 .fourthBoxRightText {
   width: 100%;
-  --border: 4px dotted rgb(238, 238, 238);
+  text-align: left;
   word-wrap: break-word;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  color: rgb(104, 104, 104);
+}
+.fourthBoxRightText > p {
+  font-size: 1.4vw;
+  color: #0096d1;
+}
+.fourthBoxRightText > span {
+  color: #0096d1;
 }
 .fifthBox {
   font-size: 2vw;
   width: 80%;
-  --border: 4px dotted rgb(238, 238, 238);
   margin: auto;
   margin-top: 5vh;
   text-align: center;
@@ -302,12 +332,11 @@ ul {
   flex-wrap: wrap;
 }
 .fifthBoxSkillsBoxSquares {
-  font-size: 2vw;
+  font-size: 1.6vw;
+  color: #585858;
   width: 25%;
   height: 16vw;
-  --border: 4px solid rgba(168, 143, 143, 0.465);
   position: relative;
-  --background-color: #ffffff;
 }
 .fifthBoxSkillsBoxSquares:hover {
   background-color: rgb(255, 255, 255);

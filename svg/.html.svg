@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="97.615" height="110.77" viewBox="0 0 97.615 110.77">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e34e26;
+      }
+
+      .cls-2 {
+        fill: #ef662a;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #ebebeb;
+      }
+    </style>
+  </defs>
+  <g id="_.html" data-name=".html" transform="translate(-208.627 -101.984)">
+    <g id="Group_40" data-name="Group 40" transform="translate(208.627 101.984)">
+      <path id="Path_70" data-name="Path 70" class="cls-1" d="M217.515,201.676l-8.888-99.692h97.615l-8.9,99.7-39.933,11.07Z" transform="translate(-208.627 -101.984)"/>
+      <path id="Path_71" data-name="Path 71" class="cls-2" d="M1000,234.108v94.153l32.29-8.951,7.608-85.2Z" transform="translate(-951.192 -225.959)"/>
+      <path id="Path_72" data-name="Path 72" class="cls-3" d="M503.468,432.378l3.3,36.975h42.379l-1.422,15.859L534.076,488.9l-13.619-3.684-.911-10.183H507.273l1.755,19.63,25.045,6.956,25.077-6.956,3.362-37.537H517.947l-1.119-12.521h46.792l1.1-12.228Z" transform="translate(-485.284 -412.001)"/>
+      <g id="Group_39" data-name="Group 39" transform="translate(18.184 20.377)">
+        <path id="Path_73" data-name="Path 73" class="cls-4" d="M534.091,432.378H503.468l3.3,36.975h27.328V457.128H517.947l-1.119-12.521h17.264Z" transform="translate(-503.468 -432.378)"/>
+        <path id="Path_74" data-name="Path 74" class="cls-4" d="M591.974,1137.881l-.016.006-13.619-3.684-.911-10.183H565.155l1.755,19.63,25.045,6.956.019-.005Z" transform="translate(-561.351 -1081.363)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="11" height="13" viewBox="0 0 11 13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a8ead5;
+      }
+    </style>
+  </defs>
+  <g id="_.profilico" data-name=".profilico" transform="translate(-899 -197)">
+    <path id="Path_6" data-name="Path 6" class="cls-1" d="M14.37,16.035a.5.5,0,1,0-.705.71A4.5,4.5,0,0,1,15,19.945c0,.61-1.755,1.5-4.5,1.5s-4.5-.89-4.5-1.5A4.5,4.5,0,0,1,7.315,16.76a.5.5,0,1,0-.7-.7A5.46,5.46,0,0,0,5,19.945c0,1.625,2.835,2.5,5.5,2.5s5.5-.875,5.5-2.5a5.47,5.47,0,0,0-1.63-3.91Z" transform="translate(894 187.555)"/>
+    <path id="Path_7" data-name="Path 7" class="cls-1" d="M12.5,10A3.5,3.5,0,1,0,9,6.5,3.5,3.5,0,0,0,12.5,10Zm0-6A2.5,2.5,0,1,1,10,6.5,2.5,2.5,0,0,1,12.5,4Z" transform="translate(892 194)"/>
+  </g>
+</svg>

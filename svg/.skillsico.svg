@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(168,234,213,0.4);
+      }
+
+      .cls-2 {
+        fill: #a8ead5;
+      }
+    </style>
+  </defs>
+  <g id="_.skillsico" data-name=".skillsico" transform="translate(-39 -11)">
+    <path id="Subtraction_3" data-name="Subtraction 3" class="cls-1" d="M7,15.7a7,7,0,1,0-7-7A7,7,0,0,0,7,15.7Zm0-12a5,5,0,1,1-5,5A5,5,0,0,1,7,3.7Z" transform="translate(39 9.3)"/>
+    <path id="Subtraction_2" data-name="Subtraction 2" class="cls-2" d="M7,15.7a7,7,0,1,1,0-14c.166,0,.334.006.5.018V3.725C7.338,3.709,7.17,3.7,7,3.7a5,5,0,1,0,5,5c0-.066,0-.133,0-.2h2v.019c0,.06,0,.121,0,.182A7.008,7.008,0,0,1,7,15.7Z" transform="translate(39 9.3)"/>
+  </g>
+</svg>

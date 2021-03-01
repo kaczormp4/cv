@@ -8,16 +8,16 @@ function EducationAnimation(){
         //console.log(document.body.scrollHeight);
         if(rect.top<372){
             education.style.flexWrap = "wrap-reverse"
-            fourthBoxRightText2.style.border = "4px solid rgba(0, 255, 0,0.4)";
-            fourthBoxRightText2.style.backgroundColor = "rgba(0, 255, 0,0.05)";            
+            // fourthBoxRightText2.style.border = "4px solid rgba(0, 255, 0,0.4)";
+            // fourthBoxRightText2.style.backgroundColor = "rgba(0, 255, 0,0.05)";            
             fourthBoxRightText.style.border = "";
             fourthBoxRightText.style.backgroundColor = "";
 
         }else{
             education.style.flexWrap = "wrap";
 
-            fourthBoxRightText.style.border = "4px solid rgba(0, 255, 0,0.4)";
-            fourthBoxRightText.style.backgroundColor = "rgba(0, 255, 0,0.05)";
+            // fourthBoxRightText.style.border = "4px solid rgba(0, 255, 0,0.4)";
+            // fourthBoxRightText.style.backgroundColor = "rgba(0, 255, 0,0.05)";
             fourthBoxRightText2.style.border = "";
             fourthBoxRightText2.style.backgroundColor = "";
         }
