@@ -8,6 +8,14 @@
   .sidePanel {
     display: none;
   }
+  body {
+    background-color: #ffffff;
+    background-image: url("svg/gora.svg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 300%;
+    background-position-y: -12px;
+  }
   .container {
     margin: 0;
     padding: 0;
@@ -17,7 +25,9 @@
     writing-mode: horizontal-tb;
   }
   .firstBox {
+    width: 80%;
     flex-wrap: wrap-reverse;
+    margin-top: 6vh;
   }
   .firstBoxPhoto {
     width: 30vw;
@@ -30,14 +40,51 @@
     width: 30vw;
   }
   .firstBoxMainInfo {
-    width: 100vw;
+    width: 100%;
   }
   .firstBoxMainTitle {
     width: 100%;
+    margin-top: 1vh;
+  }
+  .firstBoxMainTitle > h1 {
+    font-size: 5.5vw;
+  }
+  .firstBoxMainTitleContent {
+    margin-top: 14vw;
+    display: block;
+  }
+  .firstBoxMainTitleContentColumn1 {
+    text-align: left;
+    width: 100%;
+    color: #727272;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  .firstBoxMainTitleContentColumn2 {
+    width: 100%;
+    text-align: left;
+    color: #727272;
+    text-transform: uppercase;
+    margin-top: 8vw;
+  }
+  .firstBoxMainTitleContentColumn1 > p {
+    color: black;
+    font-size: 22px;
+    text-transform: lowercase;
+    margin-top: 10px;
+  }
+  .firstBoxMainTitleContentColumn2 > p {
+    text-transform: capitalize;
+    color: black;
+    font-size: 22px;
+    margin-top: 10px;
   }
   .secondBox {
-    font-size: 8vw;
-    width: 100%;
+    font-size: 6.7vw;
+    width: 95%;
+    border-radius: 15px;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
   }
   .aboutMeBox {
     font-size: 8vw;
@@ -45,36 +92,103 @@
   }
   .ambTitle {
     font-size: 6.4vw;
-    width: 100%;
-    border-radius: 0;
+    width: 95%;
+    border-radius: 15px;
+  }
+  .aboutMeLine1,
+  .aboutMeLine2,
+  .aboutMeLine3 {
+    background-image: none;
+    width: 5%;
   }
   .aboutMeText {
-    font-size: 6vw;
+    font-size: 4vw;
     width: 90%;
+  }
+  .aboutMeTextBox1 > h2,
+  .aboutMeTextBox2 > ul > h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  .aboutMeTextBox1 {
+    height: max-content;
+  }
+  .aboutMeTextBox2 {
+    height: max-content;
+  }
+  .aboutMeTextBox3 {
+    height: max-content;
+  }
+  .aboutMeTextBox3Box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .aboutMeTextBox2Left {
+    width: 20%;
+  }
+  .aboutMeTextBox2Right {
+    width: 70%;
+  }
+  .aboutMeTextBox3Box > ol {
+    width: 130px;
+    height: 130px;
+    margin: 2vw;
+  }
+  .aboutMeTextBox3Box > ol:hover {
+    transform: rotate(3deg) scale(1.02);
+  }
+  .aboutMeTextBox3Box > ol:hover > div {
+    font-size: 18px;
+  }
+  .aboutMeTextBox3Box > ol > div {
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
   }
   .thirdBox {
     font-size: 8vw;
-    width: 90%;
+    width: 98%;
   }
+  .thirdBoxName {
+    font-size: 10vw;
+  }
+  .thirdBox > a {
+    width: 48%;
+  }
+
   .thirdBoxProjects {
-    width: 27vw;
-    height: 27vw;
+    width: 100%;
+    height: 30vw;
   }
   .fourthBox {
     font-size: 4vw;
-    width: 95%;
+    width: 98%;
   }
   .fourthBoxLeft {
-    width: 25%;
+    width: 35%;
+    height: 55vh;
+  }
+  .fourthBoxLeftText > b {
+    font-size: 16px;
   }
   .fourthBoxRight {
-    width: 75%;
+    width: 65%;
+  }
+  .fourthBoxRightText {
+    font-size: 20px;
+  }
+  .fourthBoxRightText > p {
+    font-size: 16px;
+    color: #0096d1;
+    padding-bottom: 10px;
   }
   .fifthBox {
     width: 90%;
+    margin-top: -10px;
   }
   .fifthBoxTitleBox {
     font-size: 10vw;
+    padding-bottom: 10px;
   }
   .fifthBoxSkillsBoxSquares {
     margin: auto;
@@ -91,6 +205,8 @@
     transition-duration: 1.7s;
   }
   .fifthBoxAnimation {
-    display: none;
+    --display: none;
+    position: fixed;
+    bottom: 0;
   }
 }

@@ -59,7 +59,7 @@ function GihubLinkAnimation(){
 
 function SkillAnimation(){
     var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
-    console.log(width)
+    //console.log(width)
     if(width > 800){   
         
         var skill1 = document.getElementById("fifthBoxSkillsBoxSquares1");
@@ -67,7 +67,7 @@ function SkillAnimation(){
         var skill3 = document.getElementById("fifthBoxSkillsBoxSquares3");
         var skill4 = document.getElementById("fifthBoxSkillsBoxSquares4");
         
-        console.log(skill4.style.width)
+       // console.log(skill4.style.width)
         var fifthBoxAnimationDiv = document.getElementById("fifthBoxAnimationDiv");
 
         skill1.addEventListener("mousemove",e => {
