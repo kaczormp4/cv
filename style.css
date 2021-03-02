@@ -16,14 +16,20 @@ html {
   top: 10vw;
 }
 .sidePanelText {
+  text-align: left;
   margin-top: 1vw;
   width: 12vw;
-  font-size: 1.6vw;
+  font-size: 1.3vw;
   background-color: #0398d0;
   border-radius: 0px 30px 30px 0px;
   outline: 0;
   border: 0;
   padding: 0.4vw;
+}
+.sidePanelText > img {
+  width: 20px;
+  margin-right: 10px;
+  height: 20px;
 }
 .sidePanelText span {
   color: #ffffff;
@@ -55,7 +61,8 @@ body {
   background-image: url("svg/gora.svg");
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: 160%;
+  background-size: 200%;
+  background-position-y: -44px;
 }
 h1 {
   font-size: 2.5vw;
@@ -155,15 +162,49 @@ ul {
   text-align: left;
   letter-spacing: 0.6vw;
 }
+.firstBoxMainTitleContent {
+  width: 80%;
+  display: flex;
+  margin-top: 2vw;
+}
+.firstBoxMainTitleContentColumn1 {
+  text-align: left;
+  width: 70%;
+  color: #a8ead5;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.firstBoxMainTitleContentColumn2 {
+  width: 30%;
+  text-align: left;
+  color: #a8ead5;
+  text-transform: uppercase;
+}
+.firstBoxMainTitleContentColumn1 > img,
+.firstBoxMainTitleContentColumn2 > img {
+  width: 18px;
+  margin-right: 5px;
+}
+.firstBoxMainTitleContentColumn1 > p {
+  color: white;
+  font-size: 24px;
+  text-transform: lowercase;
+  margin-top: 10px;
+}
+.firstBoxMainTitleContentColumn2 > p {
+  text-transform: capitalize;
+  color: white;
+  font-size: 24px;
+  margin-top: 10px;
+}
 .secondBox {
   color: white;
   font-size: 1.8vw;
   width: 80%;
   margin: auto;
-  margin-top: 5vh;
+  margin-top: 7vh;
   text-align: center;
   background-color: #0096d1;
-  --box-shadow: 0 0 5px 0px rgb(167, 167, 167);
   cursor: pointer;
   padding-top: 0.5vw;
   padding-bottom: 0.5vw;
@@ -202,23 +243,105 @@ ul {
   box-shadow: 0 5px #999;
   transform: translateY(4px);
 }
-.aboutMeBoxFlex {
+.aboutMeFlex {
+  display: none;
 }
 .aboutMeLine {
-  width: 10%;
+  width: 5%;
+  margin-top: 6vh;
+}
+.aboutMeLine1 {
+  width: 30px;
+  height: 250px;
+  background-image: url("/svg/line.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: top;
+}
+.aboutMeLine2 {
+  width: 30px;
+  height: 200px;
+  background-image: url("/svg/line.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: top;
+}
+.aboutMeLine3 {
+  width: 30px;
+  height: 288px;
+  background-image: url("/svg/line.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: top;
 }
 .aboutMeText {
-  font-size: 1vw;
-  width: 90%;
+  font-size: 16px;
+  width: 95%;
   margin: auto;
-  margin-top: 2vh;
+  margin-top: 6vh;
   margin-bottom: 2vh;
   text-align: left;
   display: none;
 }
-.aboutMeText > h2,
-.aboutMeText > ul > h2 {
+.aboutMeTextBox1 > h2,
+.aboutMeTextBox2 > ul > h2 {
   text-transform: uppercase;
+  font-size: 20px;
+}
+
+.aboutMeTextBox1 {
+  height: 250px;
+}
+.aboutMeTextBox2 {
+  height: 200px;
+}
+.aboutMeTextBox2Li {
+  display: flex;
+  margin-top: 20px;
+}
+.aboutMeTextBox2Left {
+  width: 100px;
+}
+.aboutMeTextBox2Right {
+  width: 550px;
+}
+.aboutMeTextBox2 > ul > li > span {
+  font-size: 18px;
+  margin-right: 20px;
+}
+.aboutMeTextBox2Img {
+  width: 250px;
+}
+.aboutMeTextBox3 {
+  height: 250px;
+}
+.aboutMeTextBox3 > ul > h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.aboutMeTextBox3Box {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.aboutMeTextBox3Box > ol {
+  width: 180px;
+  display: flex;
+  height: 180px;
+  background-repeat: no-repeat;
+  margin: auto;
+  background-size: contain;
+}
+.aboutMeTextBox3Box-bg80 {
+  background-image: url("/svg/80.svg");
+}
+.aboutMeTextBox3Box-bg100 {
+  background-image: url("/svg/100.svg");
+}
+.aboutMeTextBox3Box > ol > div {
+  margin: auto;
+  text-align: center;
 }
 .thirdBox {
   font-size: 2vw;

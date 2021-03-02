@@ -13,19 +13,29 @@
 <body>
     <div class="sidePanel">
         <a href="#secondBox">
-            <button class="sidePanelText"><span>GITHUB</span></button>
+            <button class="sidePanelText">
+                <img src="/svg/githubico.svg">
+                <span>GITHUB</span></button>
         </a>
         <a href="#ambTitle">
-            <button class="sidePanelText"><span>ABOUT ME</span> </button>
+            <button class="sidePanelText">
+                <img src="/svg/aboutico.svg">
+                <span>ABOUT ME</span> </button>
         </a>
         <a href="#thirdBoxName">
-            <button class="sidePanelText"><span>PROJECTS</span></button>
+            <button class="sidePanelText">
+                <img src="/svg/projectico.svg">
+                <span>PROJECTS</span></button>
         </a>
         <a href="#fourthBoxLeft">
-            <button class="sidePanelText"><span>EDUCATION</span></button>
+            <button class="sidePanelText">
+                <img src="/svg/educationico.svg">
+                <span>EDUCATION</span></button>
         </a>
         <a href="#fifthBoxTitleBox">
-            <button class="sidePanelText"><span>SKILLS</span></button>
+            <button class="sidePanelText">
+                <img src="/svg/skillsico.svg">              
+                <span>SKILLS</span></button>
         </a>
     </div>
     <div class="container">
@@ -40,13 +50,22 @@
             <div class="firstBoxMainInfo">
                 <div class="firstBoxMainTitle">
                 <h1>Bartłomiej Kaczmarczyk</h1>
-                <br><br>
-                <h3>E-mail: <B>bkbusiness99@gmail.com</B></h3>
-                <h3>Phone Number: <B>+48 739 033 812</B></h3>
-                <br><br>
-                <h3>Date of birth: <B>17.12.1999</B></h3>
-                <h3>Place of birth: <B>Bochnia</B></h3>
-
+                    <div class="firstBoxMainTitleContent">
+                        <div class="firstBoxMainTitleContentColumn1">
+                            <img src="/svg/mailico.svg">
+                            E-mail<p>bkbusiness99@gmail.com</p>
+                            <br><br>
+                            <img src="/svg/phoneico.svg">
+                            Phone Number <p>+48 739 033 812</p>
+                        </div>
+                        <div class="firstBoxMainTitleContentColumn2">
+                            <img src="/svg/aboutico.svg">
+                            Date of birth <p>17.12.1999</p>
+                            <br><br>
+                            <img src="/svg/placeico.svg">
+                            Place of birth <p>Bochnia</p>
+                        </div>
+                    </div>
                 </div>
             </div>     
         </div>
@@ -57,46 +76,71 @@
         </a> 
         <div class="aboutMeBox" id="aboutMeBox">
             <button id="ambTitle" class="ambTitle">click here to read more about me</button>
-                <divc class="aboutMeLine">s</divc>
+            <div class="aboutMeFlex" id="aboutMeFlex">
+                <divc class="aboutMeLine">
+                    <div class="aboutMeLine1"></div>
+                    <div class="aboutMeLine2"></div>
+                    <div class="aboutMeLine3"></div>
+                </divc>
                 <div class="aboutMeText" id="aboutMeText">
-                    <h2>ABOUT ME</h2>
-                    <br>
-                    My name is Bartłomiej Kaczmarczyk, I'm 21 Years Old.
-                    I come from a small village near Bochnia, where is my place of birth.
-                    <br><br>
-                    I'm studying extramural at The University Of Computer Science And Econometrics, majoring in "Computer Science And Econometrics"
-                    - Frontend Developer Module.
-                    <br><br>
-                    
-                    I have no commercial experience in the IT industry.
-                    I've made some projects myself, which can be seen below.
-                    I'm currently learning React Framework.
-                    <br><br>
-                    I'm open and communicative, I learn very quickly.
-                    <br><br><br>
-                    <ul>
-                        <h2>Foreign Languages</h2>
+                    <div class="aboutMeTextBox1">
+                        <h2>ABOUT ME</h2>
+                        <br>
+                        My name is Bartłomiej Kaczmarczyk, I'm 21 Years Old.
+                        I come from a small village near Bochnia, where is my place of birth.
+                        <br><br>
+                        I'm studying extramural at The University Of Computer Science And Econometrics, majoring in "Computer Science And Econometrics"
+                        - Frontend Developer Module.
+                        <br><br>
                         
-                        <li>
-                            <b>English:</b> language level: B1<br>                  
-                            <h5>communicative knowledge of spoken and written </h5>
-                        </li>
-                        <li>
-                            <b>German:</b> <h5>communicative in speech</h5>
-                            <h6>(I worked for 1 year on a construction site in austria)</h6>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul>
-                        <h2>additional skills</h2>
-                        <ol>➫ photoshop / gimp ★★★★☆ </ol>
-                        <ol>➫ word / excel ★★★★★ </ol>
-                        <ol>➫ git / github ★★★★☆</ol>
-                        <ol>➫ film editing ★★★★☆</ol>
-                        <ol>➫ driving license category B</ol>
-                        <ol>➫ organizational skills</ol>
-                    </ul>
+                        I have no commercial experience in the IT industry.
+                        I've made some projects myself, which can be seen below.
+                        I'm currently learning React Framework.
+                        <br><br>
+                        I'm open and communicative, I learn very quickly.
+                        <br><br><br>
+                    </div>
+                    <div class="aboutMeTextBox2">
+                        <ul>
+                            <h2>Foreign Languages</h2>
+                            <br>
+                            <li class="aboutMeTextBox2Li">
+                                <div class="aboutMeTextBox2Left">
+                                    <span>English</span>
+                                </div>
+                                <div class="aboutMeTextBox2Right">
+                                    <img src="svg/eng.svg"class="aboutMeTextBox2Img"><br>                  
+                                    communicative knowledge of spoken and written 
+                                </div>
+                            </li>
+                            <li class="aboutMeTextBox2Li">
+                                <div class="aboutMeTextBox2Left">
+                                    <span>German<span>
+                                </div> 
+                                <div class="aboutMeTextBox2Right">
+                                    <img src="svg/germ.svg" class="aboutMeTextBox2Img"><br>
+                                    I worked for 1 year on a construction site in austria
+                                </div>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    <div class="aboutMeTextBox3">
+                        <ul>
+                            <h2>additional skills</h2>
+                            <div class="aboutMeTextBox3Box">
+                                <ol class="aboutMeTextBox3Box-bg80"><div>photoshop <br>gimp</div></ol>
+                                <ol class="aboutMeTextBox3Box-bg100"><div>word<br>excel</div></ol>
+                                <ol class="aboutMeTextBox3Box-bg80"><div>git <br> github</div></ol>
+                                <ol class="aboutMeTextBox3Box-bg80"><div>film<br> editing</div></ol>
+                            </div>
+   
+                            <ol>driving license category B</ol>
+                            <ol>organizational skills</ol>
+                        </ul>
+                    </div>  
                 </div>
+            </div>
         </div>
         <div class="thirdBox">
             <div class="thirdBoxName" id="thirdBoxName">PROJECTS</div> 

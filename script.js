@@ -212,7 +212,7 @@ function StarsAnime(){
     })
 }
 function AboutMeTextAnimaion(){
-    var amb = document.getElementById("aboutMeBox");
+    var amF = document.getElementById("aboutMeFlex");
     var amt = document.getElementById("aboutMeText");
     var ambTitle = document.getElementById("ambTitle");
     ambTitle.addEventListener("click", e =>{
@@ -220,9 +220,10 @@ function AboutMeTextAnimaion(){
         if(amt.style.display==="block"){
             ambTitle.innerText="click here to read more about me again"
             amt.style.display="none";
+            amF.style.display="none";
         }else{
             ambTitle.innerText="click here to close window"
-            
+            amF.style.display="flex";
             amt.style.display="block";
         }
     })
